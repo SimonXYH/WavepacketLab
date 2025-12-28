@@ -1,0 +1,17 @@
+-r
+C:\Users\Simon\RustroverProjects\small_projects\hi\r000ps
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--stack-unwind-limit=8388608
+--itt-config=frame
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:nostack
+--interval=100
+--platform-type=129
+--app-working-dir=C:\Users\Simon\Downloads\test
+--
+C:\Users\Simon\Downloads\test\small_projects.exe

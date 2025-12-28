@@ -1,0 +1,106 @@
+155 [15384] INFO perfrun.launcher <> - Launcher main begin
+162 [15384] INFO perfrun.launcher <> - MessageCatalogInit finished
+162 [15384] INFO perfrun.launcher <> - Launcher instance created
+162 [15384] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1240 --option-file C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\config\runss.options 
+196 [15384] INFO perfrun.launcher <> - New signal handler callback was added
+251 [15384] INFO perfrun.perfcollector <> - SEP tool path: C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\sep.exe
+285 [15384] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+285 [15384] INFO perfrun.launcher <> - create file finder object
+285 [15384] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\Simon\RustroverProjects\small_projects\try\r004hs pid = 4294967295
+292 [15384] INFO perfrun.launcher <> - create data directory = C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0
+294 [15384] INFO perfrun.launcher <> - Creating the master collection flag
+318 [15384] INFO perfrun.launcher <> - Done creating the master collection flag
+319 [26868] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+320 [26868] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0\systemcollector-27212-LOL.sc
+321 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+326 [26868] INFO perfrun.mrte <> - system-wide mode is 0
+327 [26868] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+435 [26868] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0
+435 [26868] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=LOL
+435 [26868] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+435 [26868] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\runtime;C:\Program Files (x86)\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\Tesseract-OCR;C:\Program Files\Eclipse Adoptium\jdk-19.0.2.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\pandoc-3.1.12.3;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Git\cmd;C:\texlive\2024\bin;;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Users\Simon\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Simon\AppData\Local\Programs\Python\Python312\;C:\Users\Simon\.cargo\bin;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Simon\AppData\Local\GitHubDesktop\bin;C:\texlive\2024\bin\windows;C:\Program Files\CMake\bin;C:\Program Files\DTrace;
+435 [26868] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+435 [26868] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+435 [26868] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+435 [26868] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+436 [26868] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+436 [26868] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+436 [26868] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+436 [26868] INFO perfrun.mrte <> - Data directory: C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0
+436 [26868] INFO perfrun.mrte <> - Mrte plugin is initialized
+436 [26868] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+436 [26868] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+437 [26868] INFO perfrun.tpss <> - initialize tpss controller
+437 [26868] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+437 [26868] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+437 [26868] INFO perfrun.tpss <> - default obj-size-min=1024
+437 [26868] INFO perfrun.tpss <> - default hash-table-size=0
+438 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+438 [26868] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+438 [15384] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\runtime;C:\Program Files (x86)\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\Tesseract-OCR;C:\Program Files\Eclipse Adoptium\jdk-19.0.2.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\pandoc-3.1.12.3;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Git\cmd;C:\texlive\2024\bin;;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Users\Simon\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Simon\AppData\Local\Programs\Python\Python312\;C:\Users\Simon\.cargo\bin;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Simon\AppData\Local\GitHubDesktop\bin;C:\texlive\2024\bin\windows;C:\Program Files\CMake\bin;C:\Program Files\DTrace;
+439 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\runtime\ittnotify_collector.dll
+439 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\runtime\ittnotify_collector.dll
+439 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+439 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\runtime\ittnotify_collector.dll
+439 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\runtime\ittnotify_collector.dll
+439 [15384] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+440 [15384] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+440 [15384] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+440 [15384] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+440 [15384] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+440 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0
+440 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = LOL
+440 [15384] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+440 [15384] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\runtime;C:\Program Files (x86)\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\PerkinElmerInformatics\ChemOffice2022\ChemScript\Lib;C:\Program Files\Tesseract-OCR;C:\Program Files\Eclipse Adoptium\jdk-19.0.2.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\pandoc-3.1.12.3;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files\Git\cmd;C:\texlive\2024\bin;;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Users\Simon\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Simon\AppData\Local\Programs\Python\Python312\;C:\Users\Simon\.cargo\bin;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Simon\AppData\Local\GitHubDesktop\bin;C:\texlive\2024\bin\windows;C:\Program Files\CMake\bin;C:\Program Files\DTrace;
+441 [15384] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+441 [15384] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+441 [15384] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+441 [15384] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+441 [15384] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+441 [15384] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+441 [15384] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+442 [15384] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+523 [15384] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\Simon\RustroverProjects\small_projects\target\release\small_projects.exe' is valid.
+523 [15384] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\Simon\RustroverProjects\small_projects\target\release\small_projects.exe
+528 [15384] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\pin.exe -error_file C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0\bin32\tpsstool.dll -server_name tpss_ipc.27212 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2025.0 -- C:\Users\Simon\RustroverProjects\small_projects\target\release\small_projects.exe
+528 [15384] INFO perfrun.launcher <> - ProcessCreator object was created
+534 [15384] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+538 [26868] INFO perfrun.itt <> - start itt controller for pid #2364
+542 [26868] INFO perfrun.tpss <> - start tpss controller for pid #2364
+596 [15384] INFO perfrun.launcher <> - Launcher: all plugins were started
+596 [15384] INFO perfrun.launcher <> - DirectoryMonitor object was created
+596 [15384] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+596 [15384] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+599 [15384] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+601 [15384] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+633 [15384] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+8823 [15384] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+8844 [26868] INFO perfrun.itt <> - detach itt controller
+8844 [26868] INFO perfrun.itt <> - detach itt controller done
+8844 [26868] INFO perfrun.tpss <> - stop tpss controller
+8845 [26868] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0\systemcollector-27212-LOL.sc
+8873 [26868] INFO perfrun.system <> - closed the system trace file: C:\Users\Simon\RustroverProjects\small_projects\try\r004hs\data.0\systemcollector-27212-LOL.sc
+8874 [15384] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+8874 [15384] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+8874 [15384] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+8874 [15384] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+8875 [15384] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+8877 [15384] INFO perfrun.launcher <> - Application exit code: 0
+8877 [15384] INFO perfrun.launcher <> - Exit code: 0
