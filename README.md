@@ -6,7 +6,7 @@ are manually defined, such as the step, ramp, and double slits potential, which 
 do many experiment by themselves. 
 
 This was a passion project and my original motivation was simply to see what would happen if I send some Gaussian wave through a double 
-slit potential, in making the simulation, I couldn't help but making it a bit more general so I could handle arbitrary potentials. The main 
+slit potential. In making the simulation, I couldn't help but making it a bit more general so I could handle arbitrary potentials. The main 
 things this project allowed me to do are:
 - to gain intuition on how wavefunction evolves by playing with wavefunction evolving under different potentials
 - to explore different potential geometries (steps, ramps, double slits, etc.)
@@ -28,7 +28,6 @@ A 'ramp' potential is used to accelerate a gaussian wave packet toward the doubl
 - RK4 integration
 - Arbitrary, user-defined scalar potentials
 - Complex-valued wavefunction (`Complex32`)
-- Probability density computation (`|ψ|²`)
 - Interactive SDL2 visualization
 - Built-in example potentials:
   - Gaussian wave packets
@@ -95,12 +94,14 @@ This is the core physics abstraction of the solver.
 ---
 
 ### 5. Potentials
+<img width="1091" height="571" alt="image" src="https://github.com/user-attachments/assets/37dd735d-c6ab-4d76-9610-f096e536ac17" />
+
 
 Potentials are implemented as small, composable structs:
 - `DoubleSlit`
 - `StepPotential`
 - `RampPotential`
-- harmonic oscillator (example)
+- harmonic oscillator
 
 Each potential:
 - contains a `potential_value(x, y)` function
@@ -113,11 +114,7 @@ experimental setups.
 
 ### 6. Time integration
 
-Time evolution is handled using **Runge–Kutta 4**:
-
-
-This method is explicit and easy to reason about, which makes it well-suited for
-experimentation, even though it is not unconditionally stable.
+Time evolution is handled using **Runge–Kutta 4**
 
 ---
 
