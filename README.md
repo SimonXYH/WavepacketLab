@@ -24,7 +24,6 @@ A 'ramp' potential is used to accelerate a gaussian wave packet toward the doubl
 ## What’s implemented
 
 - Time-dependent Schrödinger equation in 2D (1D is a special case)
-- Finite-difference Laplacian
 - RK4 integration
 - Arbitrary, user-defined scalar potentials
 - Complex-valued wavefunction (`Complex32`)
@@ -46,7 +45,7 @@ Main crates used:
 
 ## Code structure and abstractions
 
-### 1. Math primitives and numeric types
+### 1. Math primitives
 
 At the lowest level are small, reusable math types:
 - lightweight vector / tuple types (`Vec2`, `Vec3`, `Tup2`) for coordinates and rendering
@@ -131,7 +130,6 @@ The top layer handles visualization and user interaction:
 ## Example scenarios
 
 With the current setup, the simulator can reproduce:
-- Gaussian wave packet propagation
 - Reflection and transmission at step potentials
 - Double-slit interference
 - Acceleration under linear ramps
